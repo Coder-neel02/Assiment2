@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background: #a8e1f3;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        .image {
+            width: 200px;
+            height: 200px;
+            margin-left: 215px;
+        }
+
+        .image:hover .profile-pic {
+            opacity: 0.3;
+        }
+
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #10637c;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .education-table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        .education-table,
+        th,
+        td {
+            border: 2px solid black;
+            padding: 10px;
+            background-color: #17d4c2;
+        }
+
+        th {
+            background-color: #17d4c2;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            
+        }
+
+        a:hover {
+            color: red;
+        }
+
+        .linkedin-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #0077b5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .linkedin-button:hover {
+            background: #005582;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1><b><u>My Page</u></b></h1>
+        <div class="image">
+            <a href="https://www.linkedin.com/in/nabamitdutta" target="_blank">
+                <img src="img.jpg" alt="My Picture" class="profile-pic">
+            </a>
+        </div>
+        <p>Hello! I am Mert, a first-year student at JISCE College and a passionate stack developer.<br>
+            I am currently working on an exciting autobil project for my college tech fest.</p>
+        <h2>Education Qualification</h2>
+        <table class="education-table">
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>School/College</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10th</td>
+                    <td>72%</td>
+                    <td><a href="https://example.com" target="_blank">B.T.ROAD GOVT. SPON. H.S.</a></td>
+                </tr>
+                <tr>
+                    <td>12th</td>
+                    <td>75%</td>
+                    <td><a href="https://example.com" target="_blank">B.N.N.V</a></td>
+                </tr>
+                <tr>
+                    <td>5th Sem</td>
+                    <td>7.98</td>
+                    <td><a href="https://example.com" target="_blank">JISCE</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="linkedin-button">View My LinkedIn</a> -->
+    </div>
+</body>
+
+</html>
